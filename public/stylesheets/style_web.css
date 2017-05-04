@@ -1,0 +1,270 @@
+body {
+  font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體', sans-serif;
+  background: red;
+}
+li>a {
+  color: #290303;
+}
+/*超過768px*/
+@media screen and (min-width: 900px) {
+
+  .nav {
+    position: fixed;
+    float: left;
+  }
+  button {
+    background-color: Transparent;
+    border: none;
+    outline:none;
+    cursor:pointer;
+    position: fixed;
+    /*opacity: .5;*/
+
+  }
+  /*.navclick > i > a {
+    color: #FFC6C6;
+    text-decoration: none;
+    background: #290303;
+    width: 30px;
+    float: right;
+  }*/
+  /*case 1*/
+  .navlist {
+    font-family: "Nexa Bold","Helvetica Neue",Helvetica,sans-serif,Helvetica,sans-serif;
+    font-weight: bold;
+    width: 300px;
+    list-style: none;
+    background: #290303;
+    /*float: right;*/
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: none;
+    height: 100%;
+    /*text-align: center;*/
+  }
+  /*.navlist > li {
+    font-family: font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    margin: 5% 0 0 10%;
+    height: 50px;
+    font-size: 20px;
+    color: #FFC6C6;
+  }
+  .navlist > li > a {
+    color: #FFC6C6;
+    text-align: center;
+    float: left:
+  }
+  .navlist > li > a:hover {
+    font-size: 23px;
+    color: #290303;
+    text-decoration: none;
+  }
+  .navlist > li:hover {
+    background: #FFC6C6;
+  }*/
+
+  .navlist > a {
+    font-size: 20px;
+    color: #FFC6C6;
+    text-decoration: none;
+    height: 30px;
+    width: 300px;
+    float: left;
+    text-align: center;
+    padding: 2rem 0 4rem 0;
+
+  }
+  .navlist > a:hover {
+    color: #290303;
+    text-decoration: none;
+    background: #FFC6C6;
+    padding: 2rem 0 4rem 0;
+    width: 300px;
+    height: 30px;
+  }
+  /*.navlist .nonetoa {
+    height: 10px;
+  }
+  .navlist > .nonetoa:hover {
+    background: #290303;
+    height: 10px;
+  }*/
+
+  .intro {
+    font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體', sans-serif;
+    left:0px;
+    top:0px;
+    position: fixed;
+    background: #FFC6C6;
+    width: 400px;
+    /*position: absolute;*/
+    height: 100%;
+    float: left;
+    /*background-repeat: no-repeat;
+    background-size: 100% auto;*/
+    /*background-image: url('../images/bg.jpg');*/
+    /*opacity: .1;*/
+    z-index: -1;
+  }
+  .ckname {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    color: #290303;
+    text-shadow: 0px 0 white, 0 1px white, 0px 0 white, 0 0 white;
+    font-size: 30px;
+    text-align: center;
+  }
+  .ckinfo {
+    color: #290303;
+    font-size: 18px;
+    margin: 0 0 0 20%;
+    /*text-align: center;*/
+  }
+  .ckphoto {
+    width: 130px;
+    height: 130px;
+    margin: 20% 0 0 32%;
+    border-radius: 100px 100px 100px 100px;
+    border:3px solid white;
+    padding:2px;
+  }
+  .infocolor {
+    color: #290303;
+    font-size: 16px;
+
+  }
+  .infocolor:hover {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .letter {
+    margin: 10% 0 0 0;
+    text-align: center;
+    font-size: 18px;
+  }
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*padding: 2rem;*/
+    background: #290303;
+    text-align: center;
+    color: white;
+  }
+  .detail {
+
+    margin-left: 400px;
+    position: absolute;
+    /*height: 100%;*/
+
+    /*width: auto;*/
+    height: 100%;
+    overflow: visible;
+    top:0px;
+  }
+  .listtitle {
+    margin: 9% 10% 16% 6%;
+    list-style: none;
+    color: #290303;
+    width: 100%;
+  }
+  .listtitle h2{
+    /*margin-bottom: 3%;*/
+  }
+  .listtitle h2>a {
+    color: #290303;
+  }
+  .listtitle h2>a:hover, .listtitle h2>a:focus {
+    text-decoration: none;
+    color: #C14F55;
+  }
+  .listliner {
+    width: 90%;
+    margin: 2% 0 2% 0;
+    border-top: 2px solid #FDE2E4;
+    opacity: .7;
+  }
+  .listdate {
+    color: #D0777B;
+  }
+  .listnext {
+    color: #290303;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .listright{
+    margin: 0 5% 8% 0;
+    float: right;
+  }
+  .listleft{
+    margin: 0 0 8% 5%;
+    float: left;
+  }
+  .listleft:hover, .listright:hover {
+    border-bottom: .4px dotted;
+  }
+  .joincontent {
+    margin: 5% 5% 0 5%;
+    font-size: 18px;
+  }
+  .joincontent h2:hover {
+    color: #C14F55;
+  }
+  .joinlist {
+    margin: 5% 0 5% 0;
+    border-bottom: 1px solid #FDE2E4;
+  }
+  .joinfooter {
+    /*position: absolute;*/
+    right: 0;
+    bottom: 0;
+    left: 400px;
+    /*padding: 2rem;*/
+    /*width: 100%;*/
+    background: #290303;
+    text-align: center;
+    color: white;
+    position: fixed;
+  }
+  .joinfooter .joincolor {
+    color: #FFC6C6;
+  }
+  .aboutphoto {
+    width: 200px;
+    height: 200px;
+    /*margin: 10% 0 0 15%;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 30px 30px 30px 30px;
+    border:1px solid #290303;
+    padding:2px;
+  }
+  .aboutlist {
+    margin: 5% 0 10% 0;
+    list-style: none;
+  }
+  .borderl {
+    border-left: 1px solid #FDE2E4;
+  }
+  .col-md-6.borderl > h3 {
+    margin-left: 6%;
+  }
+  .detail .pub {
+    margin: 6% 6% 3% 6%;
+  }
+  .detail .cur {
+    margin: 11% 6% 5% 11%;
+  }
+  .detail .cur > ul >li> a {
+    color: blue;
+  }
+  .detail .res {
+    margin: 16% 0 9% 16%;
+  }
+  .detail .res > ul >li> a {
+    color: blue;
+  }
+}
